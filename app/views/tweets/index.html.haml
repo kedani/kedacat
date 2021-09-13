@@ -11,6 +11,22 @@ AZALEAグッズ情報 高槻かなこ体調不良
  １.８１０
 
 
+<?php
+$price = 1000;
+$taxRate = 0.08;
+echo '変数$priceの値: '.$price;
+echo '<br>';
+echo '変数$taxRateの値: '.$taxRate;
+echo '<br>';
+echo '-----';
+echo '<br>';
+
+// この下にコードを書いてください
+$taxIncludedPrice = $price + $price * $taxRate;
+echo'税込価格は'.$taxIncludedPrice.'円です';
+
+?>
+
 for i in 1..40 #1から40までの数字を繰り返し処理
     if i % 3 == 0 || i.to_s.include?("3") #3で割り切れるか3が含まれる数字であれば
         puts "いく負け!"
