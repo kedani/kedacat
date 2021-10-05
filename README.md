@@ -65,3 +65,23 @@ if x== 70:
 # y が 40 と等しくない場合に「 yは40ではありません 」と出力してください
 if y != 40:
     print('yは40ではありません')
+
+    x = 10
+# x が 30 より大きい場合に「 xは30より大きいです 」と出力してください
+if x > 30:
+    print('xは30より大きいです')
+
+money = 500
+apple_price = 200
+# money の値が apple_price の値以上の時、「 りんごを買うことができます 」と出力してください
+if money >= apple_price:
+   print('りんごを買うことができます')
+
+money = 100
+apple_price = 200
+
+if money >= apple_price:
+    print('りんごを買うことができます')
+# if 文の条件に当てはまらない場合に「 お金が足りません 」と出力してください
+else:
+    print('お金が足りません')
