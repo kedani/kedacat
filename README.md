@@ -3,84 +3,17 @@
 
 
 
-
-# apple_price と apple_count を掛けた結果を、変数 total_price に代入してください
-total_price = apple_price * apple_count
-
-# total_price の値を出力してください
-print(total_price)
-
-# my_name という変数に「 にんじゃわんこ 」という文字列を代入してください
-my_name ='にんじゃわんこ'
-
-# my_name を用いて、「私はにんじゃわんこです」となるように変数と文字列を連結して出力してください
-print('私は'+my_name+'です')
-
-age = 24
-# age を用いて「私は24歳です」と出力してください
-print('私は'+str(age)+'歳です')
-
-count = '5'
-# count に 1 を足した値を出力してください
-print(int(count)+1)
-
-x = 7 * 10
-y = 5 * 6
-
-# x が 70 と等しい場合に「 xは70です 」と出力してください
-if x== 70:
-    print('xは70です')
-
-
-# y が 40 と等しくない場合に「 yは40ではありません 」と出力してください
-if y != 40:
-    print('yは40ではありません')
-
-    x = 10
-# x が 30 より大きい場合に「 xは30より大きいです 」と出力してください
-if x > 30:
-    print('xは30より大きいです')
-
-money = 500
-apple_price = 200
-# money の値が apple_price の値以上の時、「 りんごを買うことができます 」と出力してください
-if money >= apple_price:
-   print('りんごを買うことができます')
-
-money = 100
+# apple_price という変数に数値 200 を代入してください
 apple_price = 200
 
-if money >= apple_price:
-    print('りんごを買うことができます')
-# if 文の条件に当てはまらない場合に「 お金が足りません 」と出力してください
-else:
-    print('お金が足りません')
+# count という変数に数値 5 を代入してください
+count = 5
 
-    money = 100
-apple_price = 100
+# total_price という変数に、 apple_price と count を掛けたものを代入してください
+total_price = apple_price * count
 
-if money > apple_price:
-    print('りんごを買うことができます')
-# 変数の値が等しい場合に「 りんごを買うことができますが所持金が0になります 」と出力してください
-elif money == apple_price:
-    print('りんごを買うことができますが所持金が0になります')
+# 「 購入するりんごの個数は○○個です 」となるように出力してください
+print('購入するりんごの個数は' + str(count) + '個です')
 
-else:
-    print('お金が足りません')
-
-x = 20
-# 変数 x が 10 以上 30 以下の場合に「 xは10以上30以下です 」と出力してください
-if 10 <=x and x<= 30:
-    print('xは10以上30以下です')
-
-
-y = 60
-# 変数 y が 10 未満または 30 より大きい場合に「 yは10未満または30より大きいです 」と出力してください
-if y < 10 or 30 < y:
-    print('yは10未満または30より大きいです')
-
-
-z = 55
-# 変数 z が 77 ではない場合に「 zは77ではありません 」と出力してください
-if not z==77:
-    print('zは77ではありません')
+# 「 支払い金額は○○円です 」となるように出力してください
+print('支払い金額は' + str(total_price) + '円です')
