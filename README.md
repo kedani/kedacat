@@ -1,8 +1,6 @@
 # README
 
 
-
-
 # apple_price という変数に数値 200 を代入してください
 apple_price = 200
 
