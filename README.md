@@ -50,10 +50,18 @@ else:
     print('お金が足りません')
     print('りんごを買えませんでした')
 
-    
+
+
+
     # 関数 print_hand を定義してください
 def print_hand():
     print('グーを出しました')
 
 # 関数 print_hand を呼び出してください
 print_hand()
+
+# apple_price という変数に数値 200 を代入してください
+apple_price = 200
+
+# count という変数に数値 5 を代入してください
+count = 5
